@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SplashActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTitle"
+        android:textSize="@dimen/_28sp"
+        android:textColor="@color/dark_gray"
+        android:layout_marginStart="@dimen/_13dp"
+        android:layout_marginEnd="@dimen/_13dp"
+        android:layout_marginTop="@dimen/_78dp"
+        android:textStyle="bold"
+        android:text="@string/notely" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_70dp"
+        android:id="@+id/tvintro"
+        android:layout_below="@+id/tvTitle"
+        android:textSize="@dimen/_18sp"
+        android:textColor="@color/light_gray"
+        android:layout_marginStart="@dimen/_13dp"
+        android:layout_marginEnd="@dimen/_13dp"
+        android:layout_marginTop="@dimen/_18dp"
+        android:lineSpacingExtra="@dimen/_5sp"
+        android:text="@string/capture_what_s_on_your_mind_amp_get_a_reminder_later_at_the_right_place_or_time_you_can_also_add_voice_memo_amp_other_features" />
+
+
+    <ImageView
+        android:id="@+id/imgbackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvintro"
+        android:contentDescription="@string/notely"
+        android:layout_marginTop="@dimen/_32dp"
+        android:src="@drawable/ic_splashbackground"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitEnd" />
+
+
+</RelativeLayout>
