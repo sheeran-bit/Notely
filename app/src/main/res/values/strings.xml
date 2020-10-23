@@ -2,4 +2,7 @@
     <string name="app_name">Notely</string>
     <string name="notely">Notely</string>
     <string name="capture_what_s_on_your_mind_amp_get_a_reminder_later_at_the_right_place_or_time_you_can_also_add_voice_memo_amp_other_features"><![CDATA[Capture what’s on your mind & get a reminder later at the right place or time. You can also add voice memo & other features]]></string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_notes">My Notes</string>
+    <string name="create">Create</string>
 </resources>

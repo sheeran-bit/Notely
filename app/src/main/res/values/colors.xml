@@ -5,4 +5,7 @@
     <color name="colorAccent">#03DAC5</color>
     <color name="dark_gray">#323232</color>
     <color name="light_gray">#535353</color>
+    <color name="extralight_gray">#f1f1f1</color>
+    <color name="white">#ffffff</color>
+    <color name="fab_color">#6273ed</color>
 </resources>

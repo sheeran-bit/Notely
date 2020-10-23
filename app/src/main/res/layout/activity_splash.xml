@@ -15,15 +15,17 @@
         android:layout_marginEnd="@dimen/_13dp"
         android:layout_marginTop="@dimen/_78dp"
         android:textStyle="bold"
+        android:padding="@dimen/_13dp"
         android:text="@string/notely" />
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="@dimen/_70dp"
+        android:layout_height="wrap_content"
         android:id="@+id/tvintro"
         android:layout_below="@+id/tvTitle"
         android:textSize="@dimen/_18sp"
         android:textColor="@color/light_gray"
+        android:padding="@dimen/_13dp"
         android:layout_marginStart="@dimen/_13dp"
         android:layout_marginEnd="@dimen/_13dp"
         android:layout_marginTop="@dimen/_18dp"

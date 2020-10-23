@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.babyfingers.notely.ui.mynotes.MyNotesFragment">
+
+    <RelativeLayout
+        android:id="@+id/relMyNotes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_13dp"
+            android:layout_marginTop="@dimen/_24dp"
+            android:layout_marginEnd="@dimen/_13dp"
+            android:text="@string/my_notes"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/_18sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchViewMyNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTitle"
+            android:background="@color/extralight_gray"
+            android:layout_marginStart="@dimen/_13dp"
+            android:layout_marginEnd="@dimen/_13dp"
+            android:layout_marginTop="@dimen/_18dp">
+
+        </androidx.appcompat.widget.SearchView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvLogCategories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/searchViewMyNotes"
+            android:layout_marginStart="@dimen/_13dp"
+            android:layout_marginEnd="@dimen/_13dp"
+            android:layout_marginTop="@dimen/_13dp"
+            android:overScrollMode="never" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvLogs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rvLogCategories"
+            android:layout_marginStart="@dimen/_13dp"
+            android:layout_marginEnd="@dimen/_13dp"
+            android:layout_marginTop="@dimen/_24dp"
+            android:overScrollMode="never" />
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/_13dp"
+            android:text="@string/create"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/fab_color"
+            app:tint="@android:color/white" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>
